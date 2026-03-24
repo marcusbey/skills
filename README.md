@@ -4,7 +4,7 @@ Two Claude Code skills for building and analyzing premium websites, distilled fr
 
 ## Skills
 
-### `premium-website-builder.skill`
+### [`premium-website-builder`](skills/premium-website-builder/SKILL.md)
 
 Turns Claude Code into a premium website builder — from clean CSS/HTML sites to full cinematic WebGL experiences.
 
@@ -12,7 +12,7 @@ Turns Claude Code into a premium website builder — from clean CSS/HTML sites t
 - Guides Claude through a structured intake process before writing any code
 - Applies emotional design principles (visceral, behavioral, reflective) to every decision
 - Covers two stacks:
-  - **CSS/HTML premium stack** — 67+ patterns including custom cursors, scroll-linked animations, scrollbar design, micro-interactions, color systems, and typography
+  - **CSS/HTML premium stack** — 74+ patterns including custom cursors, scroll-linked animations, scrollbar design, micro-interactions, color systems, and typography
   - **Cinematic stack** — Three.js/R3F, GLSL shaders, HDRI lighting, postprocessing (bloom, grain, DoF), GSAP ScrollTrigger, barba.js page transitions, particle systems
 - Generates assets via Gemini (Imagen/Veo 2) when the user has no photos or video
 - Includes ready-to-use HTML templates and a decision framework for pattern selection
@@ -21,7 +21,7 @@ Turns Claude Code into a premium website builder — from clean CSS/HTML sites t
 
 ---
 
-### `website-analyzer-v4.skill`
+### [`website-analyzer`](skills/website-analyzer/SKILL.md)
 
 Turns Claude Code into a website reverse-engineering tool. Point it at any URL and get a pixel-perfect spec.
 
@@ -39,20 +39,22 @@ Turns Claude Code into a website reverse-engineering tool. Point it at any URL a
 
 ## Installation
 
-Drop the `.skill` files into your Claude Code skills directory:
+Copy a skill folder into your Claude Code skills directory:
 
 ```bash
-# Default location
-cp *.skill ~/.claude/skills/
+# Copy a specific skill
+cp -r skills/premium-website-builder ~/.claude/skills/
+cp -r skills/website-analyzer ~/.claude/skills/
 
-# Or wherever your skills are configured
+# Or copy all skills at once
+cp -r skills/* ~/.claude/skills/
 ```
 
 Then use them in Claude Code by referencing them naturally — the skill triggers automatically based on your prompt.
 
 ## How they work together
 
-1. **Analyze** a reference site with `website-analyzer-v4` to get a full spec
+1. **Analyze** a reference site with `website-analyzer` to get a full spec
 2. **Build** your own version with `premium-website-builder` using that spec as input
 
 ## Requirements
