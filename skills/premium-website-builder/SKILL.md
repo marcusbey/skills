@@ -1,24 +1,10 @@
 ---
 name: premium-website-builder
-version: 5
 description: >
-  Builds premium, award-winning websites — from CSS/HTML all the way to full
-  cinematic WebGL experiences. Covers two stacks: (1) CSS/HTML premium stack
-  with 74+ documented patterns, color systems, micro-animations, scrollbar
-  design, and personality signals (P66–P71: CTA split, text scramble, canvas
-  ASCII spotlight, dynamic tab title, keyboard easter eggs, ghost wordmark),
-  and (2) Cinematic rendering stack with Three.js/R3F, GLSL shaders, HDRI
-  lighting, postprocessing (bloom/grain/DoF), GSAP ScrollTrigger, barba.js
-  page transitions, and particle systems. Reverse-engineered from 15+ award-
-  winning studios including good-fella.com (SOTD winner) + emotional design
-  research (Norman, Aarron Walter). Includes 10 Non-Negotiables framework.
-
-  USE THIS SKILL whenever the user asks to build, design, create, or improve
-  a website, landing page, or digital presence — even if they just say "make
-  something that looks premium", "like a top agency", "3D experience", "cinematic",
-  or "immersive". ALWAYS run Phase 0 intake BEFORE writing any code. Never skip it.
-  A startup landing page and a WebGL immersive experience need completely different
-  stacks — intake determines which layers to activate.
+  Use when building, designing, creating, or improving a website, landing page,
+  or digital presence. Triggers on: "build a website", "premium landing page",
+  "like a top agency", "make it look premium", "3D experience", "cinematic",
+  "immersive", "WebGL", or any website/page creation task.
 ---
 
 # Premium Website Builder — v3

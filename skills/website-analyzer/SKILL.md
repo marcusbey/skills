@@ -1,15 +1,9 @@
 ---
 name: website-analyzer
-version: 5
 description: >
-  Deep website reverse-engineering tool. Point it at any URL and get a pixel-perfect
-  spec covering every animation, cursor state, z-index layer, gradient, SVG, hover state,
-  and micro-interaction. Documents scroll-tied video, parallax, composition bridges between
-  sections, and the full emotional arc. Outputs structured .md specs.
-
-  USE THIS SKILL whenever the user asks to analyze, explore, deconstruct, or reverse-engineer
-  a website. Triggers on: "analyze this site", "how does this work", "deep dive", "full spec",
-  "recreate this", or when the user shares a URL and asks about its animations, scroll effects,
+  Use when analyzing, exploring, deconstructing, or reverse-engineering a website.
+  Triggers on: "analyze this site", "how does this work", "deep dive", "full spec",
+  "recreate this", or when user shares a URL asking about animations, scroll effects,
   or composition techniques.
 ---
 
